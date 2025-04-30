@@ -228,15 +228,72 @@ Three control laws were tested:
 
 ## Output Files
 
-- `convergenceOf1vs2.gif`: Q1 vs Q2 convergence
-![convergenceOf1vs2.gif](results/convergenceOf1vs2.gif)
-- `convergenceOf2vs31.gif`: Q2 vs Q3 (ΔM = +3I)
-![convergenceOf2vs31.gif](results/convergenceOf1vs2.gif)
-- `convergenceOf2vs32.gif`: Q2 vs Q3 (ΔM = -0.5I)
-![convergenceOf2vs32.gif](results/convergenceOf1vs2.gif)
-- `convergenceOf2vs33.gif`: Q2 vs Q3 (ΔM = -0.95I)
-![convergenceOf2vs33.gif](results/convergenceOf1vs2.gif)
-- Plots for joint positions, velocities, and control torques
+This project generates several plots to compare the dynamic behavior and control performance of a three-link planar manipulator under different feedback control strategies (Q1, Q2, and Q3).
+
+1. Joint Angle Trajectories (q vector components)
+What it shows: Time evolution of the angular positions (in degrees) of each of the three links.
+Format: Dashed lines represent one control strategy (e.g., Q1 or Q3), and solid lines represent Q2.
+Purpose: To compare how each controller drives the joint angles toward equilibrium.
+
+2. Angular Velocities (𝑞̇ vector components)
+What it shows: Time evolution of the angular velocities (in degrees/second) for all three links.
+Format: Each link is plotted separately with dashed vs. solid lines for different controllers.
+Purpose: To observe how effectively and quickly each controller damps out motion and stabilizes the system.
+
+3. Control Torque Inputs (Q vector components)
+What it shows: Time histories of the control torques applied at each joint by the different controllers.
+Format: Dashed lines correspond to Q1 or Q3 and solid lines to Q2.
+Purpose: To evaluate the energy effort and control behavior across the various strategies.
+
+#### Q1 vs Q2
+- `qVec4.jpg`: Q1 vs Q2 joint angles  
+  ![qVec4.jpg](results/qVec4.jpg)
+
+- `qdotVec4.jpg`: Q1 vs Q2 angular velocities  
+  ![qdotVec4.jpg](results/qdotVec4.jpg)
+
+- `controlVecQ4.jpg`: Q1 vs Q2 control torques  
+  ![controlVecQ4.jpg](results/controlVecQ4.jpg)
+
+---
+
+#### Q2 vs Q3 (**ΔM = +3I**)
+
+- `qVec3.jpg`: Q2 vs Q3 joint angles  
+  ![qVec3.jpg](results/qVec3.jpg)
+
+- `qdotVec3.jpg`: Q2 vs Q3 angular velocities  
+  ![qdotVec3.jpg](results/qdotVec3.jpg)
+
+- `controlVecQ3.jpg`: Q2 vs Q3 control torques  
+  ![controlVecQ3.jpg](results/controlVecQ3.jpg)
+
+---
+
+#### Q2 vs Q3 (**ΔM = -0.5I**)
+
+- `qVec2.jpg`: Q2 vs Q3 joint angles  
+  ![qVec2.jpg](results/qVec2.jpg)
+
+- `qdotVec2.jpg`: Q2 vs Q3 angular velocities  
+  ![qdotVec2.jpg](results/qdotVec2.jpg)
+
+- `controlVecQ2.jpg`: Q2 vs Q3 control torques  
+  ![controlVecQ2.jpg](results/controlVecQ2.jpg)
+
+---
+
+#### Q2 vs Q3 (**ΔM = -0.95I**)
+
+- `qVec.jpg`: Q2 vs Q3 joint angles  
+  ![qVec.jpg](results/qVec.jpg)
+
+- `qdotVec.jpg`: Q2 vs Q3 angular velocities  
+  ![qdotVec.jpg](results/qdotVec.jpg)
+
+- `controlVecQ.jpg`: Q2 vs Q3 control torques  
+  ![controlVecQ.jpg](results/controlVecQ1.jpg)
+
 
 ---
 
