@@ -292,7 +292,7 @@ Purpose: To evaluate the energy effort and control behavior across the various s
   ![qdotVec.jpg](results/qdotVec.jpg)
 
 - `controlVecQ.jpg`: Q2 vs Q3 control torques  
-  ![controlVecQ.jpg](results/controlVecQ1.jpg)
+  ![controlVecQ.jpg](results/controlVecQ.jpg)
 
 
 ---
