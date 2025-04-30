@@ -3,7 +3,7 @@
 ## Problem Summary
 
 The scope of this project is to explore the control performance of a **three-link planar manipulator** with torques applied at each joint, as illustrated in Fig. 1. A feedback control system is designed using the **Hamiltonian \( H \)**—representing the total energy of the system—as a **Lyapunov function**. The analysis focuses on the following key aspects:
-![fig1AE544.jpg](results/fig1AE544.jpg)
+![fig1AE544.png](results/fig1AE544.png)
 
 1. **Global Stability**: Assessing whether the control law guarantees asymptotic stability for all initial conditions.
 2. **Robustness**: Evaluating the system’s ability to maintain performance in the presence of certain modeling errors or uncertainties.
