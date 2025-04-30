@@ -294,8 +294,17 @@ Purpose: To evaluate the energy effort and control behavior across the various s
 - `controlVecQ.jpg`: Q2 vs Q3 control torques  
   ![controlVecQ.jpg](results/controlVecQ.jpg)
 
-
 ---
+### GIF
+Each GIF visualizes the time evolution of angular velocities for the three-link manipulator under different control strategies. The goal is to compare how quickly and effectively each controller drives the system toward rest (i.e., angular velocity → 0).
+- `convergenceOf1vs2.gif`: Q1 vs Q2 convergence
+ ![convergenceOf1vs2.gif](results/convergenceOf1vs2.gif)
+ - `convergenceOf2vs31.gif`: Q2 vs Q3 (ΔM = +3I)
+ ![convergenceOf2vs31.gif](results/convergenceOf1vs2.gif)
+ - `convergenceOf2vs32.gif`: Q2 vs Q3 (ΔM = -0.5I)
+ ![convergenceOf2vs32.gif](results/convergenceOf1vs2.gif)
+ - `convergenceOf2vs33.gif`: Q2 vs Q3 (ΔM = -0.95I)
+ ![convergenceOf2vs33.gif](results/convergenceOf1vs2.gif)
 
 ## How to Run
 
