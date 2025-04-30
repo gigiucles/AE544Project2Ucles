@@ -229,13 +229,13 @@ Three control laws were tested:
 ## Output Files
 
 - `convergenceOf1vs2.gif`: Q1 vs Q2 convergence
-![convergenceOf1vs2.gif](results/convergenceOf1vs2.GIF)
+![convergenceOf1vs2.gif](results/convergenceOf1vs2.gif)
 - `convergenceOf2vs31.gif`: Q2 vs Q3 (ΔM = +3I)
-![convergenceOf2vs31.gif](results/convergenceOf1vs2.GIF)
+![convergenceOf2vs31.gif](results/convergenceOf1vs2.gif)
 - `convergenceOf2vs32.gif`: Q2 vs Q3 (ΔM = -0.5I)
-![convergenceOf2vs32.gif](results/convergenceOf1vs2.GIF)
+![convergenceOf2vs32.gif](results/convergenceOf1vs2.gif)
 - `convergenceOf2vs33.gif`: Q2 vs Q3 (ΔM = -0.95I)
-![convergenceOf2vs33.gif](results/convergenceOf1vs2.GIF)
+![convergenceOf2vs33.gif](results/convergenceOf1vs2.gif)
 - Plots for joint positions, velocities, and control torques
 
 ---
